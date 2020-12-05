@@ -1,0 +1,438 @@
+@media screen and (max-width: $breakpoint-mobile){
+
+    /* h1 */
+
+    h1{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    /* subtitles */
+
+    .subtitles{
+        font-size: 16px;
+    }
+
+    /* p */
+
+    p{
+        font-size: 12px;
+    }
+
+     /* ___HEADER___ */
+
+    header{
+        display: block;
+    }
+
+    /* logo */
+
+    .logo{
+        padding-top: 5px;
+        margin-left: 15px;
+
+        img{
+            width:44px;
+        }
+
+        p{
+            margin-top: 30px;
+            margin-left: 8px;
+        }
+        
+    }
+    /* topnav */
+    nav{
+        display: none;
+    }
+     /* ___SECTION1___ */
+
+    .section1{
+        height: 100vh;
+    }
+
+    /* wave top img */
+    .imgRelative{
+        @include absolute;
+        width: 100px;
+        right: 0;
+        top: -1;
+
+    }
+
+    /* social media div group */
+    .socialMedia{
+        width: auto;
+        top: 72vh;
+        left: 25%;
+
+        /* social media */
+        i{
+            margin: 0 15px;
+            color: #6156f9;
+        }
+    }
+
+    .flex{
+        display:block;
+    }
+
+    /* left div */
+
+    .left{
+        text-align: center;
+        margin: 0;
+        margin-left: 30px;
+        width: auto;
+
+        /* part of the title  */
+        span{
+            font-size: 35px;
+        }
+
+        /* text content of the left div */
+        p{
+            width: 80vw;
+            margin: 0;
+        }
+
+        /* button of the left div */
+        button{
+            font-size: 12px;
+            margin-right: 20px;
+            margin-top: 50px;
+            width: 200px;
+            height: 40px;
+        }
+    }
+
+    /* social media img */
+    .img{
+        display: block;
+        width: 200px;
+        margin: 10px auto;
+    }
+
+    /* right div */
+    .right{
+        display: none;
+    }
+
+/* mousse img/button */
+
+.mousse{
+    width: 60px;
+    height: 60px;
+    bottom: -30px;
+    left: 40%;
+    /* mousse img */
+    img{
+        margin: auto;
+        margin-top: 15px;
+        width: 20px;
+    }
+}
+
+.line{
+    display: none;
+}
+
+/* ___SECTION2___ */
+
+.section2{
+    display: block;
+}
+
+/* left div */
+
+.divLeft{
+    margin:0;
+    margin-top: 60px;
+}
+
+/* right div */
+
+.divRight{
+    margin: 0 20px;
+    width: auto;
+}
+
+/* little div of the right div  */
+
+.petiteDiv{
+    width: auto;
+    margin: 0;
+    margin-top: 20px;
+    
+
+}
+
+/* ___SECTION3___ */
+
+.section3{
+    margin-top: 100px;
+
+     /* title of the section  */
+
+    h1{
+        margin: 0;
+        margin-left: 20px;
+    }
+
+     /* substitles of the section  */
+
+    .subtitles{
+        margin: 0;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+}
+
+.flexbox{
+    margin: 0;
+    padding-bottom: 90px;
+}
+
+/* service card */
+
+.card{
+    margin: 50px 20px;
+    width: 350px;
+    height: 410px;
+    background: #fff;
+}
+
+/* header of the card */
+
+.cardHeader{
+    /* img of the card */
+    img{
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+}
+
+/* Body of the card */
+
+.cardBody{
+    margin: 10px 15px;
+}
+
+/* footer of the card */
+
+.cardFooter{
+    margin-left: 120px;
+
+    /* button of the card */
+    button{
+        margin-top: 10px;
+        width: 120px;
+    }
+}
+
+
+/* ___SECTION4___ */
+
+.section4{
+    padding-bottom: 100px;
+    height: auto;
+    .subtitles{
+        padding-top: 50px;
+    }
+}
+
+/* princing card */
+
+.princingCard{
+    width: 310px;
+    margin: 10px auto;
+}
+
+/* header of the card */
+
+.princingHeader{
+
+    /* title of the card */
+    .title{
+        padding-top: 50px;
+        font-size: 20px;
+    }
+}
+
+/* body of the card */
+.princingBody{
+
+    /* text contents of the card */
+    .contents{
+        margin-top: 50px;
+    }
+}
+
+/* footer of the card */
+.princingFooter{
+
+    /* button of the card */
+    button{
+        width: 130px;
+        height: 45px;
+    }
+}
+
+/* ___SECTION5___ */
+
+/* newletters div */
+
+.newslettersDiv{
+    margin-bottom: 50px;
+
+    /* subtitles of the title */
+    .subtitles{
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+}
+
+/* newletters form */
+
+form{
+
+    /* form button */
+    button{
+        margin: 0;
+        margin-top: 20px;
+        width: 170px;
+        height: 52px;
+    }
+}
+
+/* input */
+input{
+    margin-top: 44px;
+    width: 230px;
+    height: 42px;
+}
+
+
+/* footer */
+
+footer{
+    margin: 0;
+    background-color: $lightblue;
+    height: auto;
+    overflow: hidden;
+    
+    /* footer background img */
+    img{
+        display: none;
+    }
+}
+
+
+/* div left*/
+
+.div-left{
+    margin-top: 50px;
+}
+
+
+/* social media */
+.socialMedias{
+    
+    /* each social media */
+    i{
+        margin-right: 25px;
+    }
+    /* class */
+    .fab{
+        font-size: 15px;
+    }
+}
+
+/* div right*/
+
+.div-right{
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.list{
+    margin-bottom: 40px;
+}
+
+/* list title*/
+.listTitle{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/**/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

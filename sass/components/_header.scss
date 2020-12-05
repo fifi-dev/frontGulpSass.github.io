@@ -1,0 +1,34 @@
+header{
+    @include flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.logo{
+    @include flex;
+    padding-top: 20px;
+
+    img{
+        width: 84px;
+    }
+
+    p{
+        margin-top: 49px;
+        font-family: $dosis;
+        font-weight: bold;
+        font-size: 40px;
+        margin-left: 18px;
+        line-height: 0.64;
+        color: #484848;
+    }
+}
+
+nav{
+    padding-top: 55px;
+    a{
+    @include whiteColor;
+    text-decoration: none;
+    margin: 0 15px;
+    line-height: 1.56;
+    }
+}

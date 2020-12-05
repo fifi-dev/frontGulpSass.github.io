@@ -1,0 +1,27 @@
+/* ___SECTION3___ */
+
+.section3{
+    
+    margin-top: 127px;
+
+    h1{
+        margin-left: 196px;
+        margin-bottom: 36px;
+    }
+    
+    .subtitles{
+        margin-left: 196px;
+        margin-bottom: 8px;
+        font-size: 25px;
+    }
+}
+
+.flexbox{
+    margin: 0 80px;
+    padding-bottom: 228px;
+    @include flexbox;
+    flex-wrap: wrap;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+}

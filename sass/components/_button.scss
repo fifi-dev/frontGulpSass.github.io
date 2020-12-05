@@ -1,0 +1,17 @@
+
+button{
+    border-radius: 26px;
+    text-align: center;
+    font-family: $popins;
+    border: none;
+    color: black;
+    background-color: white;
+
+    
+}
+
+.hover{
+    @extend button;
+    background-image: $gradientblue;
+    @include whiteColor;
+}

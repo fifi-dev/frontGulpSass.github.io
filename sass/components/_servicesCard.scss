@@ -1,0 +1,43 @@
+.card{
+    margin: 56px auto;
+    width: 367px;
+    height: 410.2px;
+    border-radius: 36px;
+    box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.1);
+    background: #fff;
+}
+
+.cardHeader{
+    img{
+        margin-left: 140px;
+        margin-top: 21px;
+        width: 90px;
+    }
+
+    h5{
+        margin-top: 38px;
+        font-family: $popins;
+        font-size: $h5;
+        text-align: center;
+        color: $titleColor;
+    }
+}
+
+.cardBody{
+    margin: 33px 32px;
+    font-family: $lato;
+    font-size: 15px;
+    color: $titleColor;
+}
+
+.cardFooter{
+    margin-left: 215px;
+    button{
+        width: 93.5px;
+        height: 29.7px;
+        font-family: $popins;
+        font-size: 12px;
+        font-weight: $medium;
+    }
+}
+/**/

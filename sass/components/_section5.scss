@@ -1,0 +1,51 @@
+/*  ___---------SECTION5---------___ */
+
+/* newletters div */
+
+.newslettersDiv{
+    
+    margin-bottom: 108px;
+    text-align: center;
+
+    /* subtitles of the title */
+    .subtitles{
+        margin-top: 135px;
+    }
+
+    /* title */
+    .h3{
+        font-size: 32px;
+        margin-top: 10px;
+    }
+
+    /* part of the title */
+    span{
+        font-weight: $semiBold;
+    }
+}
+
+/* newletters form */
+
+form{
+
+    /* form button */
+    button{
+        margin-left: 26px;
+        width: 170px;
+        height: 52px;
+    }
+}
+
+/* input */
+input{
+    margin-top: 44px;
+    width: 430px;
+    height: 52px;
+    text-align: left;
+    color: $grey;
+    font-size: 12px;
+    font-family: $popins;
+    background-color: $lightgrey;
+    padding-left: 30px;
+    border: none;
+}

@@ -1,0 +1,96 @@
+/*  ___---------SECTION1---------___ */
+.section1{
+    position: relative;
+
+    .imgRelative{
+        @include absolute;
+        width: 57vw;
+        right: 0;
+        top: -1;
+
+    }
+}
+
+.socialMedia{
+    position: absolute;
+    top: 45vh;
+    left: 104px;
+    width: 15px;
+
+    i{
+        font-size: 15px;
+        margin-top: 44px;
+        .fab{
+            color: $lightblue;
+            background-color: $lightblue;
+        }
+}
+
+.line{
+    margin-top: 44px;
+    margin-left: 5px;
+    border-left: 3px solid $lightblue;
+    height: 29px;
+}
+
+}
+
+.flex{
+    @include flexbox;
+}
+
+
+.left{
+    margin-top: 20vh;
+    margin-left: 14vw;
+    width: 545px;
+
+    h1{
+        font-weight: 400;
+        margin: 0;
+        
+    }
+
+    span{
+        font-size: 74px;
+        font-weight: 800;
+    }
+
+    p{
+        width: 341px;
+    }
+
+    button{
+        width: 216px;
+        height: 49px;
+        font-size: $lien;
+        margin-top: 21px;
+    }
+}
+
+.right{
+    margin-left: 20px;
+    img{
+        width: 600px;
+    }
+}
+
+.img{
+    display: none;
+}
+
+.mousse{
+    position: absolute;
+    bottom: -50px;
+    width: 80.1px;
+    height: 80.1px;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+    background: #fff;
+    text-align: center;
+    left: 50%;
+    img{
+        margin-top: 20px;
+        width: 27.5px;
+    }
+}

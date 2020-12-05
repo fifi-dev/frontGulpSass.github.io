@@ -1,0 +1,35 @@
+h1{
+    font-size: $titre;
+    font-family: $popins;
+    color: #42495b;
+}
+
+h5{
+    font-size: $h5;
+    font-family: $popins;
+    font-weight: $semiBold;
+}
+
+h3{
+    font-family: $popins;
+}
+
+a{
+    font-size: $lien;
+    font-family: $popins;
+    font-weight: $medium;
+}
+
+p{
+    font-size: $contents;
+    color: #7a839e;
+    font-family: $popins;
+    font-weight: $light;
+}
+
+
+.subtitles{
+    color: $lightblue;
+    font-family: $lobster;
+    font-size: $sous-titre;
+}

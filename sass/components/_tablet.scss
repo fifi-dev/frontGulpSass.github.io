@@ -1,0 +1,93 @@
+@media screen and (max-width: $breakpoint-tablet){
+
+
+    h1{
+        font-size: 40px;
+    }
+    
+
+    /* ___SECTION1___*/
+    .logo{
+        p{
+        font-size: 20px;
+        }
+    }
+
+    .left{
+        margin-top: 50px;
+    }
+
+    .socialMedia{
+        top: 18vh;
+        left: 5vw;
+    }
+
+    .mousse{
+        bottom: -100px;
+    }
+
+
+    /* ___SECTION2___*/
+
+    .section2{
+        margin-top: 50px;
+    }
+
+    .petiteDiv{
+        width: auto;
+        margin-right: 50px;
+    }
+
+    /* ___SECTION3___*/
+
+
+    /* ___SECTION4___*/
+
+    .princingCard{
+        width: 300px;
+        height: 480px;
+    }
+
+
+
+    /* ___SECTION5___*/
+    
+    /*footer*/
+    footer{
+        height: auto;
+        background-color: $lightblue;
+        /* footer background img */
+        img{
+            display: none;
+        }
+    }
+
+    /* div left*/
+    .div-lef{
+        margin-top: 50px;
+    }
+
+
+    .div-right{
+        margin-top: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /**/
+}
+/**/

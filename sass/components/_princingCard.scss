@@ -1,0 +1,66 @@
+
+/* princing card */
+
+.princingCard{
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 370px;
+    height: 463px;
+    background: #fff;
+    border-radius: 26px;
+
+}
+
+/* header of the card */
+
+.princingHeader{
+
+    margin-top: 57px;
+
+    /* title of the card */
+    .title{
+        font-size: 28px;
+        font-family: $lobster;
+    }
+
+}
+
+/* body of the card */
+
+.princingBody{
+    color: $lightblue;
+    font-family: $popins;
+    font-size: $contents;
+    
+    /* text contents of the card */
+    .contents{
+        margin: 0 40px;
+        margin-top: 69px;
+    }
+}
+
+/* price of the card */
+
+.price{
+    margin-top: 36px;
+    font-family: $popins;
+    font-size: 30px;
+    font-weight: $semiBold;
+    color: $blue;
+}
+
+/* footer of the card */
+
+.princingFooter{
+
+    /* button of the card */
+    button{
+        margin-top: 40px;
+        width: 170px;
+        height: 52px;
+        border: solid 1px $blue;
+    }
+}
+
+
+/**/

@@ -1,0 +1,48 @@
+
+/*  ___---------SECTION2---------___ */
+
+
+.section2{
+    @include flexbox;
+}
+
+/*left div*/
+.divLeft{
+    margin-top: 97px;
+    margin-left: 105px;
+    /*marketing img*/
+    img{
+        width: 653px;
+    }
+}
+
+/*right div*/
+.divRight{
+    margin-top: 52px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 866px;
+    
+
+    /*section 2 buton*/
+    button{
+        margin-top: 49px;
+        width: 162.2px;
+        height: 48.4px;
+    }
+}
+
+/*little div*/
+.petiteDiv{
+    width: 533px;
+    margin-top: 111px;
+    margin-left: 80px;
+
+}
+
+/*for margin*/
+.margin{
+    margin-top: 30px;
+}
+
+/**/

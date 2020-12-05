@@ -1,0 +1,18 @@
+@mixin flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+@mixin absolute {
+    position: absolute;
+    display: block;
+    z-index: -1;
+}
+
+@mixin flex {
+    display: flex;
+}
+
+@mixin whiteColor{
+    color: white;
+}

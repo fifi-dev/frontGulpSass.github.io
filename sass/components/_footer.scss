@@ -1,0 +1,89 @@
+/* footer */
+
+footer{
+    margin: 0;
+    position: relative;
+    @include whiteColor;
+    height: 566.3px;
+    overflow: hidden;
+    
+    /* footer background img */
+    img{
+        margin: 0;
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+    }
+}
+
+/* div left*/
+
+.div-left{
+    width: 250px;
+    margin-top: 250px;
+    text-align: center;
+
+    /* title */
+    h1{
+        font-family: $dosis;
+        @include whiteColor;
+        font-weight: $etrabold;
+        margin-bottom: 24.6px;
+    }
+
+    /* title h3 */
+    h3{
+        margin-bottom: 23px;
+        font-weight: $medium;
+        font-family: $popins;
+    }
+}
+
+/* social media */
+.socialMedias{
+    margin-left: 25px;
+    /* social media i */
+    i{
+        margin-right: 25px;
+    }
+
+    /* class */
+    .fab{
+        font-size: 20px;
+    }
+}
+
+/* div right*/
+
+.div-right{
+    margin-top: 253px;
+    display: flex;
+    justify-content: space-around;
+    width: 710px;
+    text-decoration: none;
+}
+
+/* list title*/
+.listTitle{
+    font-size: $sous-titre;
+    @include whiteColor;
+    font-weight: $medium;
+    margin-bottom: 30px;
+    
+}
+
+/* element of the list*/
+
+li {
+    list-style: none;
+    margin-bottom: 5px;
+    font-family: $popins;
+}
+
+/* link */
+
+li a {
+    @include whiteColor;
+    text-decoration: none;
+    font-family: $popins;
+}
